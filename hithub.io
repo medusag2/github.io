@@ -9,6 +9,15 @@
   <meta name="author" content="Farruh">
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
   <link rel="icon" href="favicon.ico">
+
+  <meta property="og:title" content="Farruh | Junior Developer" />
+  <meta property="og:description" content="Shaxsiy portfolio: C++, Linux, va telegram bot loyihalar." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://medusag2.github.io" />
+  <meta property="og:image" content="https://yourdomain.com/preview.jpg" /> <!-- ixtiyoriy -->
+  
+
+
   <style>
     * {
       box-sizing: border-box;
@@ -24,6 +33,15 @@
       padding: 0;
       margin: 0;
     }
+
+    section {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
 
     header {
       text-align: center;
