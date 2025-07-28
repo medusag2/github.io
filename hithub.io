@@ -24,6 +24,13 @@
       margin: 0;
       padding: 0;
     }
+section{
+      transition: background 0.5s ease;
+      cursor: pointer;
+}
+section:hover{
+      background: linear-gradient(#f0f8ff);
+}
 
     body {
       font-family: 'Fira Code', monospace;
